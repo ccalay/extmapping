@@ -20,7 +20,7 @@ public class ExtMappingRegistrar {
 
     private static final Logger logger = LoggerFactory.getLogger(ExtMappingRegistrar.class);
     private static final String MAPPING_BEAN_NAME = "requestMappingHandlerMapping";
-    private static final String EXT_PREFIX = "/solext";
+    private static final String EXT_PREFIX = "/ext";
     private static final String PATH_DELIMITER = "/";
 
     private final ApplicationContext applicationContext;
